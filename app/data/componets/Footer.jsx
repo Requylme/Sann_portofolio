@@ -5,7 +5,9 @@ import { profile } from "../portofolioData";
 export default function Footer() {
   return (
     <footer className="footer">
-      © {new Date().getFullYear()} {profile.name}. react
+      <p>
+        © 2026 {profile.name}. All rights reserved.
+      </p>
     </footer>
   );
 }
